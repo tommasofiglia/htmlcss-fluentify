@@ -22,6 +22,13 @@ body{
   background-color: #7cbb02;
 }
 
+.mt_40{
+  margin-top: 40px;
+}
+
+.mb_40{
+  margin-bottom: 40px;
+}
 /* Fine utility classes */
 
 /* Header + navbar */
@@ -141,7 +148,8 @@ nav a {
 }
 /* Fine della parte grigia sotto la navbar */
 
-.row_one .row_two::after{
+/* Prima riga da tre colonne*/
+.row_one:after{
   content: "";
   display: table;
   clear: both;
@@ -156,8 +164,7 @@ nav a {
   margin-right: 5%;
 }
 
-.row_one , .row_two{
-  margin-top: 40px;
+.row_one{
   text-align: center;
 }
 
@@ -167,7 +174,7 @@ nav a {
 
 .col_4 h2{
   color: #7cbb02;
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 500;
   margin: 20px 0 ;
 }
@@ -177,9 +184,47 @@ nav a {
   margin: auto;
 }
 
-.col_4 p{
+p{
   line-height: 1.5em;
   color: grey;
   margin-top: 20px;
   font-size: 18px;
+}
+/* Fine prima riga da tre colonne */
+
+/* Seconda riga da due colonne */
+
+.row_two:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col_6{
+  width: 50%;
+}
+
+#between_rows{
+  width: 98%;
+  margin: auto;
+  color: lightgrey;
+}
+
+#mountain{
+  width:90%;
+}
+
+.row_two{
+  text-align: left;
+}
+
+#personalize{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#personalize a{
+  display: block;
+  color: #5586bc;
+  margin-top: 25px;
 }
