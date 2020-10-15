@@ -22,6 +22,10 @@ body{
   background-color: #7cbb02;
 }
 
+.grey{
+  background-color: #d3d3d3;
+}
+
 .mt_40{
   margin-top: 40px;
 }
@@ -117,6 +121,7 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
+  cursor: pointer;
 }
 
 .center_button{
@@ -128,11 +133,11 @@ nav a {
 /* Fine Header + Navbar */
 /* Parte grigia sotto la navbar */
 .under_header{
-  background-color: #d3d3d3;
   text-align: center;
 }
 
 .under_header .undertitle{
+  border-color:
   padding: 45px 0;
 }
 
@@ -227,4 +232,54 @@ p{
   display: block;
   color: #5586bc;
   margin-top: 25px;
+}
+/* Fine seconda riga da due colonne */
+
+/* Footer */
+.footer_container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.f_element{
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.f_element h2{
+  margin-left: 70px;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.selection{
+  display: inline-block;
+}
+
+form button{
+  border: 2px solid #7cbb02;
+  padding: 20px;
+}
+
+#list_selection{
+  color: grey;
+  width: 20%;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #d3d3d3;
+  border-top: 1px solid #d3d3d3;
+  border-left: 1px solid #d3d3d3;
+  border-right: 1px solid #d3d3d3;
+}
+
+form span{
+  color:grey;
+  font-size: 20px;
+}
+
+.margin_selection{
+  padding-left: 90px;
 }
