@@ -8,6 +8,14 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+#help{
+  position: fixed;
+  bottom: 0;
+  right: 15%;
+  padding: 10px;
+  font-size: 14px;
+}
+
 /* Utility classes */
 .container{
   width: 80%;
