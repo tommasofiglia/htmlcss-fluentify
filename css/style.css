@@ -121,3 +121,25 @@ nav a {
   padding: 20px;
   border: 1px solid black;
 }
+
+/* Fine Header + Navbar */
+
+.under_header{
+  background-color: #d3d3d3;
+  text-align: center;
+}
+
+.under_header .undertitle{
+  padding: 45px 0;
+}
+
+.undertitle h2{
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.undertitle h3{
+  color: grey;
+  font-weight: 400;
+}
