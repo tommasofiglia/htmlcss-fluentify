@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Utility classes */
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.float_left{
+  float: left;
+}
+
+.green{
+  background-color: #7cbb02;
+}
+
+/* Fine utility classes */
+
+/* Header + navbar */
+header{
+  background-color: #0d325a;
+  color: white;
+}
+/* navbar */
+.navbar{
+  height: 80px;
+}
+
+.navbar_container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav_left , .nav_center , .nav_right{
+  float: left;
+}
+
+.nav_left{
+  width: 15%;
+  padding-top: 15px;
+}
+
+.nav_center{
+  width: 45%;
+}
+
+.nav_right{
+  width: 40%;
+  text-align: right;
+}
+
+#login{
+  border: 1px solid white;
+  padding: 9px 30px;
+}
+
+#piano{
+  border: 1px solid black;
+  padding: 9px 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 11px;
+  margin-left: 18px;
+  line-height: 80px;
+  vertical-align: middle;
+}
+
+.nav_center>a:hover{
+  color: orange;
+}
+
+/* Fine navbar */
+.header_image{
+  height: 470px;
+  background-image: url("../img/banner_header.png");
+  background-size: 73%;
+  background-position: 127% 115%;
+  background-repeat: no-repeat;
+}
+
+.header_title{
+  height: 100%;
+  position: relative;
+}
+
+.title{
+  width: 50%;
+  position: absolute;
+  top: 47%;
+  transform: translateY(-50%);
+}
+
+.title h1{
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.button{
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.center_button{
+  font-size: 14px;
+  padding: 20px;
+  border: 1px solid black;
+}
